@@ -1,3 +1,10 @@
+sassphp (0.5.12-1) unstable; urgency=medium
+
+  * Add gbp.conf and README.source on how to import new upstream sources
+  * Remove extra v from upstream-vcs-tag in README.source
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 30 May 2017 10:29:16 +0200
+
 sassphp (0.5.10-3) unstable; urgency=low
 
   [ Ondřej Surý ]
