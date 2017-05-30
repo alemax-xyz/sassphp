@@ -1,0 +1,23 @@
+Merging upstream releases
+=========================
+
+Importing a new upstream version can be done like this:
+
+# set target version
+upstream_version=0.5.12
+# go to git repo
+cd $GIT_DIR
+# Check gbp.conf (especially debian-branch)
+cat debian/gbp.conf
+# Import upstream
+git remote add upstream https://github.com/absalomedia/sassphp.git
+git fetch upstream
+# go to the Debian branch
+git checkout master
+# Import latest version
+gbp import-orig --uscan \
+  -u "${upstream_version}" \
+  --upstream-vcs-tag "v${upstream_version}"
+# all done :)
+
+ -- Ondřej Surý <ondrej@debian.org>, Tue, 30 May 2017 10:27:58 +0200
