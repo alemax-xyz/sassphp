@@ -2,7 +2,7 @@
 
 The `sass` extension for PHP gives you an object-oriented system of parsing [Sass](http://sass-lang.com/) from within your PHP applications. Under the hood it uses [libsass](https://github.com/hcatlin/libsass) to provide super speedy and compatible Sass parsing.
 
-![Libsass 3.4.3](https://img.shields.io/badge/libsass-3.4.3-yellow.svg) [![Build Status](https://travis-ci.org/absalomedia/sassphp.svg)](https://travis-ci.org/absalomedia/sassphp)
+![Libsass 3.4.4](https://img.shields.io/badge/libsass-3.4.4-yellow.svg) [![Build Status](https://travis-ci.org/absalomedia/sassphp.svg)](https://travis-ci.org/absalomedia/sassphp)
 
 ## What's Sass?
 
@@ -148,13 +148,15 @@ If there's a problem, the extension will throw a `SassException`:
 
 These extensions also utilise the [Libsass](https://github.com/hcatlin/libsass) library & remain in varying states of completion:
 
-* Facebook [HHVM](https://github.com/absalomedia/sasshhvm) native (non Zend) extension - with Libsass 3.4.3 - tested up to HHVM 3.11.x
-* [Nginx](https://github.com/absalomedia/sass-nginx-module) module - with Libsass 3.4.3
+* Facebook [HHVM](https://github.com/absalomedia/sasshhvm) native (non Zend) extension - with Libsass 3.4.4 - tested up to HHVM 3.11.x
+* [Nginx](https://github.com/absalomedia/sass-nginx-module) module - with Libsass 3.4.4
 
 ## Changelog
 
 | Release | Description |
 | --- | --- |
+| 0.5.12 | Cartography - MapRoot functions |
+| 0.5.11 | Zoomer (Libsass 3.4.4) stable |
 | 0.5.10 | Elwood (Libsass 3.4.3) stable & Travis fix |
 | 0.5.9 | Rickshaw (Libsass 3.4.2) stable  |
 | 0.5.8 | AI - KITT (Libsass 3.4.0) stable  |
